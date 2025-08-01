@@ -11,7 +11,7 @@ A beginner-friendly command-line tool to track personal expenses locally using P
 - How to structure a multi-file Python project
 - How to use Git and GitHub for version control and sharing
 
-## 📝 Features
+## Features
 - Add an expense with amount, category, and an optional note
 - View all previous expenses with dates
 - Expenses are saved locally in `data.json`
@@ -19,9 +19,13 @@ A beginner-friendly command-line tool to track personal expenses locally using P
 
 ## Project Structure
 expense-tracker/
+
 ├── main.py # Main CLI logic and menu
+
 ├── expense.py # Expense class and object-to-dictionary converter
+
 ├── data.json # Stored expense data
+
 └── README.md # Project description and instructions
 
 ## How to Run This Project
